@@ -34,6 +34,7 @@
 {
     if (self.settings)
         [self.settings release];
+    [webView release];
     [super dealloc];
 }
 
